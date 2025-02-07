@@ -131,7 +131,7 @@ if not input_invalid:
     print("    |    Your belt: ", belt)
 
     ## Lab 5 - Question 4: Use Loot
-    belt. health_points = functions_lab05.use_loot(belt, health_points)
+    belt, health_points = functions_lab05.use_loot(belt, health_points)
 
     print("    ------------------------------------------------------------------")
     print("    |", end="    ")
@@ -171,10 +171,10 @@ if not input_invalid:
     # Lab 5: Call Recursive function
     print("    |", end="    ")
     num_dream_lvls = input("How many dream levels do you want to go down?")
-    if :
-        
-        
-        
+    if num_dream_lvls != 0:
+        health_points -= 1
+        crazy_level = functions_lab05.inception_dream(num_dream_lvls)  
+        combat_strength += crazy_level
         print("combat strength: " + str(combat_strength))
         print("health points: " + str(health_points))
 
@@ -239,7 +239,7 @@ if not input_invalid:
             if not name[0].isalpha() or not name[1].isalpha():
                 print("    |    Please enter an alphabetical name")
                 tries += 1
-            else:
+            else: # Maziar Two = MaT
                 short_name = name[0][0:2:1] + name[1][0:1:1]
                 print("    |    I'm going to call you " + short_name + " for short")
                 input_invalid = False
