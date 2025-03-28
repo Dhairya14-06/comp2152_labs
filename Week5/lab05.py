@@ -241,7 +241,7 @@ if not input_invalid:
             if not name[0].isalpha() or not name[1].isalpha():
                 print("    |    Please enter an alphabetical name")
                 tries += 1
-            else: # Maziar Two = MaT
+            else: 
                 short_name = name[0][0:2:1] + name[1][0:1:1]
                 print("    |    I'm going to call you " + short_name + " for short")
                 input_invalid = False
