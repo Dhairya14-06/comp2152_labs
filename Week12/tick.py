@@ -5,6 +5,6 @@ class Tick:
 
     def suck_blood(self):
         print("Tick is feeding")
-    
+        
     def __del__(self):
         print("Aggregation: Tick is destroyed.")

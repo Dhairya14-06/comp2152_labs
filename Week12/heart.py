@@ -6,6 +6,7 @@ class Heart:
     
     def beat(self):
         print("Heart is beating..")
-
+        
+        
     def __del__(self):
         print("Composition: Heart is destroyed.")  

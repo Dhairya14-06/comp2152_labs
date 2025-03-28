@@ -4,7 +4,6 @@ from mammal import Mammal
 class Person(Mammal):
     # fields from Parent
     # age
-
     # fields
     # name
     # __height

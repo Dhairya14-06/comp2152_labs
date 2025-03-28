@@ -43,6 +43,7 @@ puma1.love()
 puma1.tick.suck_blood()
 
 # Optional: show that tail_length is not defined if not implemented
+
 # print(puma1.tail_length)  # Uncomment only if tail_length exists
 
 print("--- Destructions due to end of the scope ---")
